@@ -1,0 +1,92 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/montserrat-v25-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v25-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/montserrat-v25-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/montserrat-v25-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: url(./pic/1-flowers\ 2.svg) no-repeat,
+    url(./pic/подложка.svg) no-repeat;
+  display: flex;
+}
+.section {
+  width: 808px;
+  height: 351px;
+  display: flex;
+  padding-top: 100px;
+  margin: 0px auto 0 auto;
+  background: #fbf7f6;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.section__form-caption {
+  display: flex;
+  flex-wrap: wrap;
+  width: 324px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #371030;
+}
+
+.section__form {
+  width: 404px;
+  padding: 31px 0px 40px 40px;
+}
+.section__form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #371030;
+  background: #fbf7f6;
+  display: flex;
+  margin-bottom: 22px;
+  width: 324px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #371030;
+  padding-bottom: 10px;
+}
+#name,
+#tel {
+  display: inline;
+  margin-right: 27px;
+  margin-top: 18px;
+  width: 144px;
+}
+img {
+  width: 404px;
+  height: 351px;
+}
+.section__form input[type="submit"] {
+  color: #9a3c48;
+  font-size: 16px;
+  font-weight: 900;
+  border: none;
+  width: 354px;
+  height: 55px;
+  background: #ffb0ba;
+  box-shadow: 3px 3px 0px 3px #de8e98;
+  border-radius: 100px;
+  margin-top: 10px;
+}
